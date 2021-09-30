@@ -7,15 +7,15 @@ public class Cat {
 	// pick a head dimension
 	private static final int HEAD_DIMENSION = 100;
 	// eyes will be about 1/4 from top of head and 1/4 from left
-	private static final int EYE_Y = HEAD_DIMENSION/4;
+	private static final int EYE_Y = HEAD_DIMENSION/3;             // Changed from /4 to /3- Arthur
 	private static final int EYE_X = HEAD_DIMENSION/4;
 	private static final int EYE_SEPARATION = HEAD_DIMENSION/3;
 	// pick eye dimensions
-	private static final int EYE_HEIGHT = 25;                      // This was changed
-	private static final int EYE_WIDTH = 15;                       // This was changed
+	private static final int EYE_HEIGHT = 25;                      // This was changed- Arthur
+	private static final int EYE_WIDTH = 15;                       // This was changed- Arthur
 	// pick mouth height, width is based on head dimension
 	private static final int MOUTH_HEIGHT = 20;				   // Changed from 10 to 20. - Riley
-	private static final int MOUTH_WIDTH = HEAD_DIMENSION/5;	// Changed to divide by 5 instead of 4.
+	private static final int MOUTH_WIDTH = HEAD_DIMENSION/5;	// Changed to divide by 5 instead of 4.- Riley
 	// mouth starts about 40% from left edge of head
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 * 3;
